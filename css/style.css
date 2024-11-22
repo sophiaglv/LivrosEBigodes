@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", serif;
+    list-style: none;
+}
+
+body{
+    background-color: #F0EBD5;
+}
+
+.menu{
+    background-color:#AB4A15;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#F0EBD5;
+    height: 120px;
+    padding: 25px;
+    font-size: 1.2rem;
+    
+}
+
+.submenu{
+    display: none;
+    background-color: #AB4A15;
+    position: absolute;
+    margin-top: 10px;
+    right: 150px;
+    padding: 15px;
+    box-shadow: 3px 3px 17px -6px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+.arrumar{
+    display: flex;
+    gap: 60px;
+}
+
+link{
+    position: relative;
+}
+
+.link:hover .submenu{
+    display: block;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    gap: 30px;
+    margin-left: 450px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alinhaLg p{
+    font-family: "Playfair Display SC", serif;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+}
+
+.alinhaLg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 5px;
+}
+
+.linha div{
+    width: 40px;
+    height: 0.5px;
+    background-color: #F0EBD5;
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.info2 img{
+    width: 35px;
+}
+
+.info2{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.alinhaNew{
+    background-color: #AB4A15;
+    width: 1100px;
+    height: 200px;
+    padding: 60px;
+    margin: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.novo{
+    color: #F0EBD5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novo h1{
+    font-family: "Playfair Display SC", serif;
+    font-size: 2.5rem;
+}
+
+.livroNew{
+    display: flex;
+    gap: 30px;
+}
+
+.livroNew img{
+    width: 100px;
+}
+
+.subtitulo div{
+    width: 300px;
+    height: 0.5px;
+    background-color: black;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -60px;
+}
+
+.subtitulo p{
+    font-family: "Playfair Display SC", serif;
+    font-size: 2rem;
+}
+
+.alinhaBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

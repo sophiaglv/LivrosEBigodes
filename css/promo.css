@@ -1,0 +1,72 @@
+.alinhaLP{
+    display: flex;
+}
+
+.livroPro{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+    font-size: 0.9rem;
+}
+
+.livroPro .livro{
+    width: 150px;
+    height: 209px;
+}
+
+.infoP .negrito{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.infoP .italico{
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.infoP .preco{
+    font-size: 1.8rem;
+    margin-top: 5px;
+}
+
+.infoP img{
+    width: 100px;
+    margin-top: 12px;
+}
+
+.precoA div{
+    width: 75px;
+    height: 0.5px;
+    background-color: black;
+    position: absolute;
+}
+
+.precoA{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.ver{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.ver img{
+    width: 25px;
+}
+
+.fundo{
+    background-color: #AB4A15;
+    padding: 10px;
+    border-radius: 5px;
+    width: 140px;
+    color: #F0EBD5;
+    display: flex;
+    justify-content: center;
+}
+
+.a2{
+    margin-top: 30px;
+}
